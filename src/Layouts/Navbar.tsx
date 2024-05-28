@@ -10,6 +10,7 @@ const Navbar = () => {
           <ul className=" space-x-6">
             <NavLink to={"/"}>Home</NavLink>
             <NavLink to={"/about"}>About</NavLink>
+            <NavLink to={"/services"}>Services</NavLink>
             <Button>
               <NavLink to={"/login"}>Login</NavLink>
             </Button>
